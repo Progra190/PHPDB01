@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vittug</title>
+    <title>Vittug.:. <?php echo $title  ?></title>
 </head>
 <body>
     <div class="wrap">
@@ -15,8 +15,8 @@
         </header>    
             <nav>
                 <a href="/"><i class="fa-solid fa-house-chimney"></i><span>Início</span></a>
-                <a href="/contatos" title="Faça contato"><i class="fa-solid fa-commient-dots"></i><span>Contatos</span></a>
-                <a href="/sobre" title="Sobre..."><i class="fa-solid fa-circle-info"></i><span>Sobre</span></a>
-                <a href="/usuario" title="Usuário"><i class="fa-solid fa-user"></i><span>Usuário</span></a>
+                <a href="/contacts.php" title="Faça contato"><i class="fa-solid fa-commient-dots"></i><span>Contatos</span></a>
+                <a href="/about" title="Sobre..."><i class="fa-solid fa-circle-info"></i><span>Sobre</span></a>
+                <a href="/user" title="Usuário"><i class="fa-solid fa-user"></i><span>Usuário</span></a>
             </nav>
                 <main>
