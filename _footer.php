@@ -1,12 +1,17 @@
-
 </main>
-                <footer>
-                    <a href="/" title="Página Incial"><i class="fa-solid fa-house-chimney"></i><span>Início</span></a>
-                <div>&copy; copyright 2022 Vittug </div>
-                <a href="/stop" title="Topo da Página"><i class="fa-solid fa-circle-up"></i><span>Início</span></a>
-                </footer>
-            
-        
-    </div>
+
+<footer>
+
+    <a href="/" title="Página inicial"><i class="fa-solid fa-house-chimney"></i></a>
+
+    <div>&copy; Copyright 2022 Vitugo.</div>
+
+    <a href="#top" title="Topo da página"><i class="fa-solid fa-circle-up"></i></a>
+
+</footer>
+
+</div>
+
 </body>
+
 </html>
