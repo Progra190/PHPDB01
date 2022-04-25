@@ -1,22 +1,40 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vittug.:. <?php echo $title  ?></title>
+    <meta name="author" content="André Luferat - https://github.com/Luferat">
+    <meta name="description" content="Aplicativo modelo full-stack usando HTML, CSS, PHP e MySQL.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Vitugo - <?php echo $title ?></title>
 </head>
+
 <body>
+
+    <a id="top"></a>
+
     <div class="wrap">
+
         <header>
-            <a href="/"><img src="/Imagem/Baloes.jpg" alt=" Logotipo do Vittug "> </a>
-           <h1> Vittug <small>Dinheiro sempre Dinheiro</small></h1>
-        </header>    
-            <nav>
-                <a href="/"><i class="fa-solid fa-house-chimney"></i><span>Início</span></a>
-                <a href="/contacts.php" title="Faça contato"><i class="fa-solid fa-commient-dots"></i><span>Contatos</span></a>
-                <a href="/about" title="Sobre..."><i class="fa-solid fa-circle-info"></i><span>Sobre</span></a>
-                <a href="/user" title="Usuário"><i class="fa-solid fa-user"></i><span>Usuário</span></a>
-            </nav>
-                <main>
+
+            <a href="/" title="Página inicial"><i class="fa-solid fa-bug fa-fw"></i></a>
+
+            <h1>Vitugo<small>Quem tem fome tem pressa.</small></h1>
+
+        </header>
+
+        <nav>
+
+            <a href="/" title="Página inicial"><i class="fa-solid fa-house-chimney fa-fw"></i><span>Início</span></a>
+
+            <a href="/contatos" title="Faça contato"><i class="fa-solid fa-comment-dots fa-fw"></i><span>Contatos</span></a>
+
+            <a href="/sobre" title="Sobre..."><i class="fa-solid fa-circle-info fa-fw"></i><span>Sobre</span></a>
+
+            <a href="/usuario" title="Usuário"><i class="fa-solid fa-user fa-fw"></i><span>Usuário</span></a>
+
+        </nav>
+
+        <main>
